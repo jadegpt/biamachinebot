@@ -1,4 +1,4 @@
-# Bia 🦋 (biamachinebot)
+# Bia (biamachinebot)
 
 A Telegram chatbot based on Node.js and [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) framework.
 
@@ -28,7 +28,7 @@ $ npm start
 
 ### Production
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Qow_DE?referralCode=xZ8GAk)
 
 ### Demo
 
