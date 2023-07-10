@@ -1,0 +1,24 @@
+{
+  "name": "Biamachinebot",
+  "version": "1.1.0",
+  "description": "Chatbot for Telegram",
+  "main": "src/index.js",
+  "author": "jadegpt (https://github.com/jadegpt)",
+  "homepage": "https://github.com/jadegpt/biamachinebot",
+  "type": "module",
+  "dependencies": {
+    "dotenv-cli": "^7.2.1",
+    "mongoose": "^7.3.0",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/node": "^18.15.11",
+    "debug": "^4.3.4",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "dev": "dotenv nodemon src/index.js",
+    "start": "node -r dotenv/config src/index.js"
+  }
+}
